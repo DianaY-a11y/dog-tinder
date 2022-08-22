@@ -1,0 +1,25 @@
+.Main {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-image: url("../images/puppy.png");
+  background-size: cover;
+}
+
+.Home {
+  text-align: center;
+  margin: 100px;
+  background: rgb(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.FrontTitle {
+  font-size: 90px;
+  color: white;
+}
+
+.title {
+  font-size: 30px;
+  color: white;
+}

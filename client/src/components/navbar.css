@@ -1,0 +1,40 @@
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.LogoContainer {
+  width: 50%;
+  display: flex;
+}
+
+.logo {
+  width: 40%;
+  max-height: 150px;
+  margin: -20px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-button {
+  width: 17%;
+  max-height: 65px;
+  color: rgb(254, 48, 114);
+  background-color: white;
+  font-size: 25px;
+  padding: 0px 7px;
+  margin: 10px 10px;
+  border-radius: 20px;
+  border: none;
+}
+
+.nav-button:hover {
+  background-color: rgb(254, 48, 114, 0.8);
+  color: white;
+}
+
+.nav-button:disabled {
+  background-color: #e0e0e0;
+  color: rgb(254, 48, 114);
+}

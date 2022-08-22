@@ -1,0 +1,77 @@
+.onboarding {
+  border-top: solid 1px rgb(213, 213, 213);
+  text-align: center;
+}
+
+form {
+  font-size: 20px;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+}
+
+form section {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  text-align: start;
+}
+
+form input {
+  padding: 15px 25px;
+  margin: 10px 0;
+  font-size: 15px;
+  border: solid 2px rgb(219, 219, 219);
+  border-radius: 10px;
+}
+
+form label {
+  margin: 10px 0;
+}
+
+.multiple-input {
+  display: flex;
+  flex-direction: row;
+}
+
+form input::-webkit-outer-spin-button,
+form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.multiple-input input {
+  margin: 0px 10px 0px 0px;
+}
+
+.multiple-input label {
+  padding: 4px;
+  border: solid 2px rgb(144, 144, 144, 0.5);
+  border-radius: 10px;
+  transition: all 0.3s;
+  margin-right: 10px;
+}
+
+form input[type="radio"] {
+  display: none;
+}
+
+form input[type="number"] {
+  width: 50%;
+}
+
+form input[type="radio"]:checked + label {
+  border: solid 2px rgb(221, 39, 22);
+}
+
+form input[type="submit"]:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+form input[type="submit"]:active {
+  background-color: rgb(226, 115, 115);
+}
+
+.photo-container img {
+  width: 100%;
+}

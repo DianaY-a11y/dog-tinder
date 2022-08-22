@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  font-family: "Readex Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.primary-button {
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  background: linear-gradient(45deg, #fb4570, #fb8da0);
+  padding: 18px 30px;
+  border-radius: 30px;
+  border: none;
+}
+
+.primary-button:hover {
+  background: linear-gradient(45deg, #fb8da0, #fb4570);
+}
